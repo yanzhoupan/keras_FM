@@ -1,8 +1,9 @@
 # keras_FM
 This is a tensorflow.keras implementation of Factorized Machine(FM)
 
-The dataset is provided by Avazu in a Kaggle competition.
-You can find the data [HERE](https://www.kaggle.com/c/avazu-ctr-prediction)
+## Dataset
+* The dataset is provided by Avazu in a Kaggle competition.
+* You can find the data [HERE](https://www.kaggle.com/c/avazu-ctr-prediction)
 
 
 ## Data preprocessing
@@ -12,7 +13,9 @@ You can find the data [HERE](https://www.kaggle.com/c/avazu-ctr-prediction)
 ## FMCrossLayer class
 * Set the weights(the hidden vectors in FM) in build().
 * Define the forward propagatation in call().
-* Here is how we simply crossed features: ![alt text](https://i.ibb.co/mvJ3TLQ/image.png)
+* Here is how we simply crossed features: 
+
+![alt text](https://i.ibb.co/mvJ3TLQ/image.png)
 
 ## Generate FM model
 * Generate input_layer with tf.keras.Input()
