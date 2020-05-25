@@ -2,8 +2,8 @@
 This is a tensorflow.keras implementation of Factorized Machine(FM)
 
 ## Dataset
-* The dataset is provided by Avazu in a Kaggle competition.
-* You can find the data [HERE](https://www.kaggle.com/c/avazu-ctr-prediction)
+* The dataset is a Click-Through Rate Prediction dataset provided by Avazu in a Kaggle competition.
+* You can find the data [here](https://www.kaggle.com/c/avazu-ctr-prediction)
 
 
 ## Data preprocessing
